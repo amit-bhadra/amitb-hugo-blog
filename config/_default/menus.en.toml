@@ -4,36 +4,42 @@
   url = "about"
   weight = 1
 
-[[main]]
-  identifier = "archive"
-  name = "archive"
-  url = "archive"
-  weight = 2
+# [[main]]
+#   identifier = "archive"
+#   name = "archive"
+#   url = "archive"
+#   weight = 2
 
-[[main]]
-  identifier = "gallery"
-  name = "gallery"
-  url = "gallery"
-  weight = 3
+# [[main]]
+#   identifier = "gallery"
+#   name = "gallery"
+#   url = "gallery"
+#   weight = 3
     
-[[main]]
-  parent = "gallery"
-  name = "cartoon"
-  url = "gallery/cartoon"
+# [[main]]
+#   parent = "gallery"
+#   name = "cartoon"
+#   url = "gallery/cartoon"
 
-[[main]]
-  parent = "gallery"
-  name = "photo"
-  url = "gallery/photo"
+# [[main]]
+#   parent = "gallery"
+#   name = "photo"
+#   url = "gallery/photo"
 
 [[main]]
   identifier = "posts"
   name = "posts"
   url = "posts"
-  weight = 4
-    
+  weight = 2
+
 [[main]]
-  identifier = "notes"
-  name = "notes"
-  url = "notes"
-  weight = 5
+  identifier = "resume"
+  name = "resume"
+  url = "resume"
+  weight = 3
+    
+# [[main]]
+#   identifier = "notes"
+#   name = "notes"
+#   url = "notes"
+#   weight = 5
